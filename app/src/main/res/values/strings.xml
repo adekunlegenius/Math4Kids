@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Math4Kids</string>
+
+
+    <!-- ************BASIC QUESTIONS************** -->
+    <string name="Q1">Write 1 in words</string>
+    <string name="Ans1">One</string>
+
+
+    <!-- *************END OF BASIC QUESTIONS********* -->
+
+    <!-- TEXT TO SPEECH STRINGS -->
+    <string name="main_activity">Hi Kids! Welcome to Math for kids. For basic test click the blue button.</string>
+
+</resources>

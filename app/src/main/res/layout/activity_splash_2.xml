@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/logo"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:rotationX="-4"
+        android:rotationY="6"
+        android:shadowColor="@color/purple_500"
+        android:shadowDx="20"
+        android:shadowDy="10"
+        android:shadowRadius="25"
+        android:text="Math"
+        android:textColor="@color/purple_500"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+         />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:rotationX="-4"
+        android:rotationY="6"
+        android:shadowColor="@color/pink"
+        android:shadowDx="20"
+        android:shadowDy="10"
+        android:shadowRadius="25"
+        android:text="4"
+        android:textColor="@color/pink"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:rotationX="-4"
+        android:rotationY="6"
+        android:shadowColor="@color/green"
+        android:shadowDx="20"
+        android:shadowDy="10"
+        android:shadowRadius="25"
+        android:text="Kids"
+        android:textColor="@color/green"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+         />
+</LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Teaching Kids Mathematics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

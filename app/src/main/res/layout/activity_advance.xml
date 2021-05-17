@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/advance_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:theme="@style/Theme.Math4Kids.Basic.AppbarOverLay">-->
+
+    <!--        <androidx.appcompat.widget.Toolbar-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:background="@color/pink">-->
+
+    <!--        </androidx.appcompat.widget.Toolbar>-->
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/learn_counting_advance"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Continue Counting"
+            android:textAlignment="center"
+            app:backgroundTint="@color/green" />
+
+        <Button
+            android:id="@+id/learn_number_advance"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="Advance Numbers \n and Words"
+            android:textAlignment="center"
+            app:backgroundTint="@color/green"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        >
+
+        <Button
+            android:id="@+id/learn_addition_advance"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Advance Addition \n and Subtraction"
+            android:textAlignment="center"
+            app:backgroundTint="@color/green"
+            />
+
+        <Button
+            android:id="@+id/learn_shape_advance"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="8dp"
+            android:text="Advance Shapes"
+            android:textAlignment="center"
+            app:backgroundTint="@color/green"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        >
+
+        <Button
+            android:id="@+id/learn_color_advance"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Advance Color"
+            android:textAlignment="center"
+            app:backgroundTint="@color/green"
+            />
+
+        <Button
+            android:id="@+id/take_test_advance"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="8dp"
+            android:text="Take Test"
+            android:textAlignment="center"
+            app:backgroundTint="@color/green"
+            />
+
+    </LinearLayout>
+</LinearLayout>

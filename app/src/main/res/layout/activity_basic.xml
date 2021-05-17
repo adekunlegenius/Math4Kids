@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/basic_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_weight="2">
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:theme="@style/Theme.Math4Kids.Basic.AppbarOverLay">-->
+
+    <!--        <androidx.appcompat.widget.Toolbar-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:background="@color/pink">-->
+
+    <!--        </androidx.appcompat.widget.Toolbar>-->
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/learn_counting"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Learn Counting"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/learn_number"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="Learn Numbers \n and Words"
+            android:textAlignment="center"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        >
+
+        <Button
+            android:id="@+id/learn_addition"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Learn Addition \n and Subtraction"
+            android:textAlignment="center"
+
+            />
+
+        <Button
+            android:id="@+id/take_test"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="8dp"
+            android:text="Take Basic Test"
+            android:textAlignment="center"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

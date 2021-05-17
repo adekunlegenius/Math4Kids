@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="question" parent="">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#201111</item>
+    </style>
+
+<!--<style name="Theme.Math4Kids.Basic.AppbarOverLay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>-->
+<!--    <style name="Theme.Math4Kids.Basic.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+</resources>
